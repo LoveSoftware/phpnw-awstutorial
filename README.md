@@ -150,18 +150,18 @@ Channel: phpnwaws
 
 2) Tick 'Select All Resources'
 
-Navigate through the following screens selecting: 
-DNS: NA
-VPC: Select the VPC
-VPC Network: Select subnet, internet gateway and DHCP options
-VPC Security: Unselect ACL, Select Routing Tables
-Network: Select the load balancer, Unselect Cloud Front Distributions
-Compute: Select the previously created instance
-Storage: Unselect S3 Buckets
-Application Services: NA
-Config: NA
-Security: Select 'webserver' security group, unselect everything else
-Operational Resources: NA
+- Navigate through the following screens selecting: 
+- DNS: NA
+- VPC: Select the VPC
+- VPC Network: Select subnet, internet gateway and DHCP options
+- VPC Security: Unselect ACL, Select Routing Tables
+- Network: Select the load balancer, Unselect Cloud Front Distributions
+- Compute: Select the previously created instance
+- Storage: Unselect S3 Buckets
+- Application Services: NA
+- Config: NA
+- Security: Select 'webserver' security group, unselect everything else
+- Operational Resources: NA
 
 3) On the sumary screen rename the resources to be inline with the elements of the architecure they represent. Use the aws managment console as a a guide to convert id numbers to names.
 
